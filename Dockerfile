@@ -26,4 +26,4 @@ VOLUME ["/backup"]
 EXPOSE 22 3000
 
 # Run gogs when the container launches
-CMD ["bash", "/app/start.sh"]
+CMD ["/app/gogs/gogs", "web"]
